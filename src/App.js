@@ -14,9 +14,9 @@ const counterDefaultVal = {
   temperature: {
     title: "Outside Temperature",
     unit: "°",
-    step: 10,
-    min: -10,
-    max: 40
+    step: 20,
+    min: 10,
+    max: 110
   }
 };
 

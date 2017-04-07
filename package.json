@@ -2,7 +2,9 @@
   "name": "react-tesla-range-calculator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://itsBosco.github.io/react-tesla-range-calculator",
   "dependencies": {
+    "gh-pages": "^0.12.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
@@ -12,6 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
